@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*顶部白条*/
+.header-baitiao {
+	font-size:0.875em;     
+}
+/*顶部白条小竖杠样式*/
+.xiaoshugang0{
+	font-size:0.75em;
+}
+/*顶部白条字体*/
+.font-style1 {
+	font-size:0.75em;
+}
+/*顶部白条中文明网的字体间隔*/
+div.header-baitiao nav a:nth-child(7) {
+	letter-spacing:0.22em;
+}
+/*顶部白条校内样式字体间隔*/
+div.header-baitiao nav a:nth-child(5) {
+	letter-spacing:0;
+}
+/*顶部蓝条*/
+.header-lantiao {
+	font-size:0.875em;
+	font-family:
+}
+/*顶部蓝条小竖杠样式*/
+.xiaoshugang1{
+	font-size:0.75em;
+}
+/*左切换箭头*/
+#left{
+	font-size:1.25em;
+}
+/*右切换箭头*/
+#right{
+	font-size:1.25em;
+}
+/*正文新闻容器*/
+.zhengwen-xinwen{
+	font-size:0.75em;
+}
+/*正文新闻字体加粗*/
+.fontred {
+	font-weight:bold;
+}
+.zhengwen-xinwen table tr td:nth-child(2){
+	font-family: "Open Sans", helvetica, arial;
+}
+/*正文链接导航*/
+.zhengwen-caption li {
+	font-size:0.75em;
+}
+/*正文各链接*/
+.links li table {
+	font-size:0.75em;
+}
+/*通知公告容器*/
+.tongzhi-container{
+	font-size:0.75em;
+}
+.tongzhi-container table tr td:nth-child(2){
+	font-family: "Open Sans", helvetica, arial;
+}
+/*底部*/
+.footer {
+	font-size:0.75em;
+}

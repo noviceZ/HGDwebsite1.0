@@ -1,0 +1,133 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*背景颜色*/
+body {
+	background-color:#F4F4F4; 
+}
+/*所有链接样式*/
+a:link {
+	color:#333333;
+	text-decoration:none;
+}
+
+a:visit {
+	color:#333333;
+	text-decoration:none;
+}
+
+a:hover {
+	color:#F00;
+	text-decoration:none;
+}
+
+a:active,
+a:focus {
+	color:#F00;
+	text-decoration:none;
+}
+/*顶部蓝条链接样式*/
+.header-lantiao nav a:link {
+	color:#FFF;
+	text-decoration:none;
+}
+
+.header-lantiao nav a:visit {
+	color:#FFF;
+	text-decoration:none;
+}
+
+.header-lantiao nav a:hover {
+	color:#F00;
+	text-decoration:none;
+}
+
+.header-lantiao nav a:active,
+.header-lantiao nav a:focus {
+	color:#F00;
+	text-decoration:none;
+}
+
+/*顶部白条字体颜色*/
+.font-style0 {
+	color:#333333;
+}
+/*顶部白条小字体*/
+.font-style1 {
+	color:#990000;
+}
+/*顶部白条中的红色字体*/
+div.header-baitiao nav a:nth-child(1) {
+	color:#ff0000;
+}
+/*顶部蓝条*/
+.header-lantiao nav a {
+	color:#FFF;
+}
+/*顶部蓝条小竖杠样式*/
+.xiaoshugang1{
+	color:#FFF;
+}
+/*左切换箭头*/
+#left{
+	color:#333333;
+}
+/*右切换箭头*/
+#right{
+	color:#333333;
+}
+/*鼠标停放在左切换箭头效果*/
+#left:hover,
+#left:focus{
+	color:#FFA500;
+}
+/*鼠标停放右切换箭头效果*/
+#right:hover,
+#right:focus{
+	color:#FFA500;
+}
+/*正文新闻字体颜色*/
+.zhengwen-xinwen table tr td a {
+	color:#333333;
+}
+.zhengwen-xinwen table tr td a.fontred {
+	color:#F00;
+}
+/*正文导航链接背景颜色*/
+.zhengwen-caption li {
+	background-color:#ececec;
+}
+/*正文导航链接鼠标停留颜色变化*/
+.zhengwen-caption li:hover {
+	background-color:#CCC;
+	color:#F00;
+}
+/*正文导航链接鼠标点击颜色变化*/    
+.zhengwen-caption .mycolors {
+	background-color:#fff;
+	border-bottom:none;
+}
+/*正文各链接背景颜色*/
+.links {
+	background-color:#f0f0f0;
+}
+/*各链接字体颜色*/
+.links li table tr td a {
+	color:#333333;
+}
+/*各链接鼠标停留字体颜色变化*/
+.mylinks tr td a:hover {
+	color:#F00;
+}
+/*正文各链接红色字体*/
+#kuaisu-links table tr td a.fontred2 {
+	color:#F00;
+}
+/*通知公告容器*/
+.tongzhi-container table tr td a {
+	color:#333333;
+}
+/*底部*/
+.footer {
+	color:#333333;
+}
